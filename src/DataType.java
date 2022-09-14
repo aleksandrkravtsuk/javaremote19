@@ -1,3 +1,5 @@
+import static java.awt.Color.black;
+
 /**
  * Examples of primitive datatypes
  */
@@ -32,6 +34,11 @@ public class DataType {
 
     Integer randomNumber; // null
 
+    // multi declaration
+    int numberOne, numberTwo, numberThree;
+
+    String fruit = "apple", vegetable = "pumpkins", cities;
+
     public static void main(String[] args) {
         int k = 0;
         Integer y = null;
@@ -39,6 +46,12 @@ public class DataType {
 
         System.out.println(k);
         System.out.println(y);
+
+        String _color = "black";
+
+        int $hexaNumber = 0x2A;
+
+        String className = "sda";
     }
 
 }
