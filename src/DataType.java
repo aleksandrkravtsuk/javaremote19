@@ -39,6 +39,10 @@ public class DataType {
 
     String fruit = "apple", vegetable = "pumpkins", cities;
 
+    private static String CAR = "toyota";
+    public static String FOOD = "CAKE";
+
+
     public static void main(String[] args) {
         int k = 0;
         Integer y = null;
@@ -52,6 +56,13 @@ public class DataType {
         int $hexaNumber = 0x2A;
 
         String className = "sda";
+
+        int a = 100;
+        int b = 3;
+        int c = a + b;
+        System.out.println(CAR);
+        System.out.println(FOOD);
+
     }
 
 }
